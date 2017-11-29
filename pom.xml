@@ -114,7 +114,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
-					<imageName>${kube.namespace}/demo48</imageName>
+					<imageName>cdposs/demo48</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<serverId>docker-hub</serverId>
 					<imageTags>
