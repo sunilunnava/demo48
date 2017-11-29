@@ -32,7 +32,7 @@ node() {
 	echo "LabelVerion: " + LABEL_VERSION
 	NAMESPACE=pom.groupId ?: pom.parent.groupId;
 	KUBE_NAMESPACE=pom.properties['kube.namespace']
-	IMAGE_NAME="sriatt1"+"/"+pom.artifactId+":latest"
+	IMAGE_NAME="cdposs"+"/"+pom.artifactId+":latest"
 	echo "Artifact: " + PROJECT_NAME
 	 env.DOCKER_HOST="tcp://localhost:4243"
     env.DOCKER_CONFIG="${WORKSPACE}/.docker"
